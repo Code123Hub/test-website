@@ -1,5 +1,8 @@
 
 
+import { Link } from "react-router-dom"
+
+
 export const Navigation = (props) => {
   return (
     <nav id='menu' className='navbar navbar-default navbar-fixed-top'>
@@ -28,7 +31,7 @@ export const Navigation = (props) => {
         >
           <ul className='nav navbar-nav navbar-right'>
             <li>
-              <a href='#features' className='page-scroll'>
+              <a href='/' className='page-scroll'>
                 Home
               </a>
             </li>
@@ -58,8 +61,8 @@ export const Navigation = (props) => {
               </a>
             </li>
             <li>
-              <a href='#testimonials' className='page-scroll'>
-                Ticket
+              <a href='/login' >
+                Login
               </a>
             </li>
             

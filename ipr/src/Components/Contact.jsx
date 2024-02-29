@@ -3,8 +3,6 @@
 import { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faFacebook, faInstagram, faTwitter, faYoutube } from "@fortawesome/free-brands-svg-icons";
-
-import emailjs from "emailjs-com";
 import { faEnvelope, faMapMarker, faPhone } from "@fortawesome/fontawesome-free-solid";
 
 const initialState = {
@@ -24,19 +22,7 @@ export const Contact = (props) => {
   const clearState = () => setState({ ...initialState });
 
   const handleSubmit = (e) => {
-    e.preventDefault();
-
-    emailjs
-      .sendForm("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", e.target, "YOUR_USER_ID")
-      .then(
-        (result) => {
-          console.log(result.text);
-          clearState();
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
+    e.preventDefault()
   };
   return (
     <div>
@@ -51,7 +37,7 @@ export const Contact = (props) => {
                   get back to you as soon as possible.
                 </p>
               </div>
-              <form name="sentMessage" validate onSubmit={handleSubmit}>
+              <form name="sentMessage"  onSubmit={handleSubmit}>
                 <div className="row">
                   <div className="col-md-6">
                     <div className="form-group">
@@ -106,7 +92,7 @@ export const Contact = (props) => {
               <h3>Contact Info</h3>
               <p>
                 <span>
-                  <FontAwesomeIcon icon={faMapMarker} size="x" style={{color:"white"}} /> {props.data ? props.data.address : "loading"}
+                  <FontAwesomeIcon icon={faMapMarker}  style={{color:"white"}} /> {props.data ? props.data.address : "loading"}
                 </span>
                 
               </p>
@@ -114,7 +100,7 @@ export const Contact = (props) => {
             <div className="contact-item">
               <p>
                 <span>
-                <FontAwesomeIcon icon={faPhone} size="x" style={{color:"white"}} /> {props.data ? props.data.phone : "loading"}
+                <FontAwesomeIcon icon={faPhone}  style={{color:"white"}} /> {props.data ? props.data.phone : "loading"}
                 </span>{" "}
                 
               </p>
@@ -122,7 +108,7 @@ export const Contact = (props) => {
             <div className="contact-item">
               <p>
                 <span>
-                <FontAwesomeIcon icon={faEnvelope} size="x" style={{color:"white"}} /> {props.data ? props.data.email : "loading"}
+                <FontAwesomeIcon icon={faEnvelope}  style={{color:"white"}} /> {props.data ? props.data.email : "loading"}
                 </span>{" "}
                 
               </p>
