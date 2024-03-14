@@ -188,7 +188,7 @@ function SignUp() {
                 }
               />
             </FormControl>
-            <Checkbox checked={acceptOurTerms}
+            <Checkbox className="div-p1" checked={acceptOurTerms}
             onChange={(e)=>setAcceptOurTerms(e.target.checked)}/>
             Accept our Terms and Conditions
             <br />
@@ -205,43 +205,38 @@ function SignUp() {
               </Button>
             </div>
             <p className="div-p1">or</p>
-            <p className="div-p1"> Create Account with</p>
+            <p className="div-p1">  <Link to="/login"
+              style={{color: "blue" }}
+            >
+              Already registered? LogIn
+            </Link></p>
             <hr />
             {/* <Button variant="contained" sx={{justifyContent:'center', m: 1, borderRadius:'100%'}}></Button>
              */}
-            <div className="div-fontawesome">
+            {/* <div className="div-fontawesome">
               <FontAwesomeIcon
                 icon={faGoogle}
-                size="2x"
+                size="lg"
                 style={{ marginRight: "8px" }}
               />
               <FontAwesomeIcon
                 icon={faFacebook}
-                size="2x"
+                size="lg"
                 style={{ marginRight: "8px" }}
               />
-              <FontAwesomeIcon
-                icon={faGooglePlus}
-                size="2x"
-                style={{ marginRight: "8px" }}
-              />
+              
               <FontAwesomeIcon
                 icon={faTwitter}
-                size="2x"
+                size="lg"
                 style={{ marginRight: "8px" }}
               />
               <FontAwesomeIcon
                 icon={faLinkedinIn}
-                size="2x"
+                size="lg"
                 style={{ marginRight: "8px" }}
               />
-            </div>
-            <Link to="/"
-              className="div-p1"
-              style={{ marginTop: "5px", marginBottom: "2px", color: "blue" }}
-            >
-              Already registered? LogIn
-            </Link>
+            </div> */}
+            
           </Box>
         </CardContent>
       </Card>

@@ -1,11 +1,17 @@
 
-import ParticlesBg from "particles-bg";
+// import ParticlesBg from "particles-bg";
+// import banner from '../../public/img/bg2.jpg';
+// import bgImage from '../Components/Images/bg.jpeg';
 
 export const Header = (props) => {
   return (
     <header id='header'>
       <div className='intro'>
-        <ParticlesBg type="circle" bg={{zIndex: 0, position:"absolute", top:0}} />
+        {/* <ParticlesBg type="circle" bg={{zIndex: 0, position:"absolute", top:0}} /> */}
+
+        {/* <img src=""/> */}
+        {/* <img src={banner} alt="Background" style={{ width: '100%', height: '100%', objectFit: 'cover', position: 'absolute', top: 0, left: 0, zIndex: 0 , opacity: 0.2, }} />
+        */}
         <div className='overlay'>
           <div className='container'>
           

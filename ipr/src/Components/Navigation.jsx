@@ -1,9 +1,12 @@
 
 
-import { Link } from "react-router-dom"
+import { Link, useNavigate  } from "react-router-dom"
 
 
 export const Navigation = (props) => {
+
+  const navigate = useNavigate();
+
   return (
     <nav id='menu' className='navbar navbar-default navbar-fixed-top'>
       <div className='container'>
@@ -21,7 +24,7 @@ export const Navigation = (props) => {
             <span className='icon-bar'></span>{' '}
           </button>
           <a className='navbar-brand page-scroll' href='#page-top'>
-            IPR Gorilla
+           The IPR Gorilla
           </a>{' '}
         </div>
 
@@ -40,6 +43,7 @@ export const Navigation = (props) => {
                 About
               </a>
             </li>
+            
             <li>
               <a href='#services' className='page-scroll'>
                 Sponsors
@@ -56,14 +60,20 @@ export const Navigation = (props) => {
               </a>
             </li>
             <li>
-              <a href='#testimonials' className='page-scroll'>
+              <a href='#agenda' className='page-scroll'>
+                Agenda
+              </a>
+            </li>
+            <li>
+              <a href='#contact' className='page-scroll'>
                 Contact
               </a>
             </li>
             <li>
-              <a href='/login' >
+            
+            <button className='btn btn-custom btn-lg' onClick={() => navigate("/login")}>
                 Login
-              </a>
+              </button>
             </li>
             
           </ul>

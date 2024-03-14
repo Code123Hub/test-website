@@ -5,8 +5,8 @@
 {
     "Header": {
 
-        "title": "Visit for All Conferences & events",
-        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
+        "title": "27th edition ",
+        "paragraph": "The IP and Litigation Gorilla       Conference Dubai 2024"
 
     },
     "About": {
@@ -25,34 +25,36 @@
         ]
     },
     "Services": [{
-            "icon": "fa fa-wordpress",
+            "icon": "img/sponsors/s1.webp",
             "name": "Lorem ipsum dolor",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. "
+            
         },
+        
         {
-            "icon": "fa fa-cart-arrow-down",
+            "icon": "img/sponsors/s2.webp",
             "name": "Consectetur adipiscing",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
         },
         {
-            "icon": "fa fa-cloud-download",
+            "icon": "img/sponsors/s3.webp",
             "name": "Lorem ipsum dolor",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
         },
         {
-            "icon": "fa fa-language",
+            "icon": "img/sponsors/s4.webp",
             "name": "Consectetur adipiscing",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
         },
         {
-            "icon": "fa fa-plane",
+            "icon": "img/sponsors/s5.webp",
             "name": "Lorem ipsum dolor",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
         },
         {
-            "icon": "fa fa-pie-chart",
+            "icon": "img/sponsors/s1.webp",
             "name": "Consectetur adipiscing",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
         }
 
 
@@ -117,23 +119,25 @@
         "youtube": "youtube.com"
     },
     "Features": [{
-            "icon": "fa fa-comment-o",
-            "title": "Lorem ipsum",
+       
+        
+            "icon": "fa fa-tags",
+            "title": "Buy Ticket",
             "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
         },
         {
             "icon": "fa fa-bullhorn",
-            "title": "Lorem ipsum",
+            "title": "Our Conferences",
             "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
         },
         {
-            "icon": "fa fa-group",
-            "title": "Lorem ipsum",
+            "icon": "fa fa-calendar",
+            "title": "Event Schedule",
             "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
         },
         {
             "icon": "fa fa-magic",
-            "title": "Lorem ipsum",
+            "title": "Gallery",
             "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
         }
     ]

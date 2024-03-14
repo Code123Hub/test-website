@@ -65,6 +65,11 @@ function Login1() {
         body: JSON.stringify({ email, password }),
       });
   
+      if (email === "admin@gmail.com" && password === "Admin@369") {
+        // Redirect to the admin dashboard URL
+        window.location.href = "https://admin-dashboard-jet-eight.vercel.app";
+        return;
+      }
       const responseData = await response.json();
   
       if (response.ok) {
@@ -192,11 +197,10 @@ function Login1() {
              */}
             
             <div className="div-fontawesome">
-              <FontAwesomeIcon icon={faGoogle} size="2x" style={{marginRight:'8px'}}/>
-              <FontAwesomeIcon icon={faFacebook} size="2x" style={{marginRight:'8px'}}/>
-              <FontAwesomeIcon icon={faGooglePlus} size="2x" style={{marginRight:'8px'}} />
-              <FontAwesomeIcon icon={faTwitter} size="2x" style={{marginRight:'8px'}}/>
-              <FontAwesomeIcon icon={faLinkedinIn} size="2x" style={{marginRight:'8px'}}/>
+              <FontAwesomeIcon icon={faGoogle} size="lg" style={{marginRight:'8px'}}/>
+              <FontAwesomeIcon icon={faFacebook} size="lg" style={{marginRight:'8px'}}/>
+              <FontAwesomeIcon icon={faTwitter} size="lg" style={{marginRight:'8px'}}/>
+              <FontAwesomeIcon icon={faLinkedinIn} size="lg" style={{marginRight:'8px'}}/>
             </div>
             {/* <Link to="/forgotpassword" className="div-p">
               Forgot your password?
